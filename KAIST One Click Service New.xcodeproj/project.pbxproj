@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F81007A62D320F8200BCFA5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81007A52D320F8200BCFA5F /* AppDelegate.swift */; };
+		F81007AA2D320F8200BCFA5F /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F81007A82D320F8200BCFA5F /* Main.html */; };
+		F81007AC2D320F8200BCFA5F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F81007AB2D320F8200BCFA5F /* Icon.png */; };
+		F81007AE2D320F8200BCFA5F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F81007AD2D320F8200BCFA5F /* Style.css */; };
+		F81007B02D320F8200BCFA5F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F81007AF2D320F8200BCFA5F /* Script.js */; };
+		F81007B22D320F8200BCFA5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81007B12D320F8200BCFA5F /* ViewController.swift */; };
+		F81007B52D320F8200BCFA5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81007B32D320F8200BCFA5F /* Main.storyboard */; };
+		F81007B72D320F8300BCFA5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81007B62D320F8300BCFA5F /* Assets.xcassets */; };
+		F81007C42D320F8300BCFA5F /* KAIST_One_Click_Service_NewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81007C32D320F8300BCFA5F /* KAIST_One_Click_Service_NewTests.swift */; };
+		F81007CE2D320F8300BCFA5F /* KAIST_One_Click_Service_NewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81007CD2D320F8300BCFA5F /* KAIST_One_Click_Service_NewUITests.swift */; };
+		F81007D02D320F8300BCFA5F /* KAIST_One_Click_Service_NewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81007CF2D320F8300BCFA5F /* KAIST_One_Click_Service_NewUITestsLaunchTests.swift */; };
+		F81007D62D320F8300BCFA5F /* KAIST One Click Service New Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F81007D52D320F8300BCFA5F /* KAIST One Click Service New Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F81007DB2D320F8300BCFA5F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81007DA2D320F8300BCFA5F /* SafariWebExtensionHandler.swift */; };
+		F81007F52D320F8300BCFA5F /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F81007EE2D320F8300BCFA5F /* popup.js */; };
+		F81007F62D320F8300BCFA5F /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F81007EF2D320F8300BCFA5F /* background.js */; };
+		F81007F72D320F8300BCFA5F /* images in Resources */ = {isa = PBXBuildFile; fileRef = F81007F02D320F8300BCFA5F /* images */; };
+		F81007F82D320F8300BCFA5F /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F81007F12D320F8300BCFA5F /* popup.html */; };
+		F81007F92D320F8300BCFA5F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F81007F22D320F8300BCFA5F /* manifest.json */; };
+		F81007FA2D320F8300BCFA5F /* button.css in Resources */ = {isa = PBXBuildFile; fileRef = F81007F32D320F8300BCFA5F /* button.css */; };
+		F81007FB2D320F8300BCFA5F /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F81007F42D320F8300BCFA5F /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F81007C02D320F8300BCFA5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F810079A2D320F8200BCFA5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81007A12D320F8200BCFA5F;
+			remoteInfo = "KAIST One Click Service New";
+		};
+		F81007CA2D320F8300BCFA5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F810079A2D320F8200BCFA5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81007A12D320F8200BCFA5F;
+			remoteInfo = "KAIST One Click Service New";
+		};
+		F81007D72D320F8300BCFA5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F810079A2D320F8200BCFA5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81007D42D320F8300BCFA5F;
+			remoteInfo = "KAIST One Click Service New Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F81007E32D320F8300BCFA5F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F81007D62D320F8300BCFA5F /* KAIST One Click Service New Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F81007A22D320F8200BCFA5F /* KAIST One Click Service New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KAIST One Click Service New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81007A52D320F8200BCFA5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F81007A92D320F8200BCFA5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		F81007AB2D320F8200BCFA5F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F81007AD2D320F8200BCFA5F /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		F81007AF2D320F8200BCFA5F /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		F81007B12D320F8200BCFA5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F81007B42D320F8200BCFA5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F81007B62D320F8300BCFA5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F81007B82D320F8300BCFA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F81007B92D320F8300BCFA5F /* KAIST_One_Click_Service_New.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KAIST_One_Click_Service_New.entitlements; sourceTree = "<group>"; };
+		F81007BA2D320F8300BCFA5F /* KAIST One Click Service New.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "KAIST One Click Service New.entitlements"; sourceTree = "<group>"; };
+		F81007BF2D320F8300BCFA5F /* KAIST One Click Service NewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KAIST One Click Service NewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81007C32D320F8300BCFA5F /* KAIST_One_Click_Service_NewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAIST_One_Click_Service_NewTests.swift; sourceTree = "<group>"; };
+		F81007C92D320F8300BCFA5F /* KAIST One Click Service NewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KAIST One Click Service NewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81007CD2D320F8300BCFA5F /* KAIST_One_Click_Service_NewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAIST_One_Click_Service_NewUITests.swift; sourceTree = "<group>"; };
+		F81007CF2D320F8300BCFA5F /* KAIST_One_Click_Service_NewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAIST_One_Click_Service_NewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F81007D52D320F8300BCFA5F /* KAIST One Click Service New Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KAIST One Click Service New Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81007DA2D320F8300BCFA5F /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F81007DC2D320F8300BCFA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F81007DD2D320F8300BCFA5F /* KAIST_One_Click_Service_New_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KAIST_One_Click_Service_New_Extension.entitlements; sourceTree = "<group>"; };
+		F81007EE2D320F8300BCFA5F /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = Resources/popup.js; sourceTree = "<group>"; };
+		F81007EF2D320F8300BCFA5F /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		F81007F02D320F8300BCFA5F /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		F81007F12D320F8300BCFA5F /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		F81007F22D320F8300BCFA5F /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		F81007F32D320F8300BCFA5F /* button.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = button.css; path = Resources/button.css; sourceTree = "<group>"; };
+		F81007F42D320F8300BCFA5F /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F810079F2D320F8200BCFA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81007BC2D320F8300BCFA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81007C62D320F8300BCFA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81007D22D320F8300BCFA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F81007992D320F8200BCFA5F = {
+			isa = PBXGroup;
+			children = (
+				F81007A42D320F8200BCFA5F /* KAIST One Click Service New */,
+				F81007C22D320F8300BCFA5F /* KAIST One Click Service NewTests */,
+				F81007CC2D320F8300BCFA5F /* KAIST One Click Service NewUITests */,
+				F81007D92D320F8300BCFA5F /* KAIST One Click Service New Extension */,
+				F81007A32D320F8200BCFA5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F81007A32D320F8200BCFA5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F81007A22D320F8200BCFA5F /* KAIST One Click Service New.app */,
+				F81007BF2D320F8300BCFA5F /* KAIST One Click Service NewTests.xctest */,
+				F81007C92D320F8300BCFA5F /* KAIST One Click Service NewUITests.xctest */,
+				F81007D52D320F8300BCFA5F /* KAIST One Click Service New Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F81007A42D320F8200BCFA5F /* KAIST One Click Service New */ = {
+			isa = PBXGroup;
+			children = (
+				F81007A52D320F8200BCFA5F /* AppDelegate.swift */,
+				F81007B12D320F8200BCFA5F /* ViewController.swift */,
+				F81007B32D320F8200BCFA5F /* Main.storyboard */,
+				F81007B62D320F8300BCFA5F /* Assets.xcassets */,
+				F81007B82D320F8300BCFA5F /* Info.plist */,
+				F81007B92D320F8300BCFA5F /* KAIST_One_Click_Service_New.entitlements */,
+				F81007BA2D320F8300BCFA5F /* KAIST One Click Service New.entitlements */,
+				F81007A72D320F8200BCFA5F /* Resources */,
+			);
+			path = "KAIST One Click Service New";
+			sourceTree = "<group>";
+		};
+		F81007A72D320F8200BCFA5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F81007A82D320F8200BCFA5F /* Main.html */,
+				F81007AB2D320F8200BCFA5F /* Icon.png */,
+				F81007AD2D320F8200BCFA5F /* Style.css */,
+				F81007AF2D320F8200BCFA5F /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F81007C22D320F8300BCFA5F /* KAIST One Click Service NewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F81007C32D320F8300BCFA5F /* KAIST_One_Click_Service_NewTests.swift */,
+			);
+			path = "KAIST One Click Service NewTests";
+			sourceTree = "<group>";
+		};
+		F81007CC2D320F8300BCFA5F /* KAIST One Click Service NewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F81007CD2D320F8300BCFA5F /* KAIST_One_Click_Service_NewUITests.swift */,
+				F81007CF2D320F8300BCFA5F /* KAIST_One_Click_Service_NewUITestsLaunchTests.swift */,
+			);
+			path = "KAIST One Click Service NewUITests";
+			sourceTree = "<group>";
+		};
+		F81007D92D320F8300BCFA5F /* KAIST One Click Service New Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F81007ED2D320F8300BCFA5F /* Resources */,
+				F81007DA2D320F8300BCFA5F /* SafariWebExtensionHandler.swift */,
+				F81007DC2D320F8300BCFA5F /* Info.plist */,
+				F81007DD2D320F8300BCFA5F /* KAIST_One_Click_Service_New_Extension.entitlements */,
+			);
+			path = "KAIST One Click Service New Extension";
+			sourceTree = "<group>";
+		};
+		F81007ED2D320F8300BCFA5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F81007EE2D320F8300BCFA5F /* popup.js */,
+				F81007EF2D320F8300BCFA5F /* background.js */,
+				F81007F02D320F8300BCFA5F /* images */,
+				F81007F12D320F8300BCFA5F /* popup.html */,
+				F81007F22D320F8300BCFA5F /* manifest.json */,
+				F81007F32D320F8300BCFA5F /* button.css */,
+				F81007F42D320F8300BCFA5F /* content.js */,
+			);
+			name = Resources;
+			path = "KAIST One Click Service New Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F81007A12D320F8200BCFA5F /* KAIST One Click Service New */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81007E42D320F8300BCFA5F /* Build configuration list for PBXNativeTarget "KAIST One Click Service New" */;
+			buildPhases = (
+				F810079E2D320F8200BCFA5F /* Sources */,
+				F810079F2D320F8200BCFA5F /* Frameworks */,
+				F81007A02D320F8200BCFA5F /* Resources */,
+				F81007E32D320F8300BCFA5F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F81007D82D320F8300BCFA5F /* PBXTargetDependency */,
+			);
+			name = "KAIST One Click Service New";
+			packageProductDependencies = (
+			);
+			productName = "KAIST One Click Service New";
+			productReference = F81007A22D320F8200BCFA5F /* KAIST One Click Service New.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F81007BE2D320F8300BCFA5F /* KAIST One Click Service NewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81007E72D320F8300BCFA5F /* Build configuration list for PBXNativeTarget "KAIST One Click Service NewTests" */;
+			buildPhases = (
+				F81007BB2D320F8300BCFA5F /* Sources */,
+				F81007BC2D320F8300BCFA5F /* Frameworks */,
+				F81007BD2D320F8300BCFA5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F81007C12D320F8300BCFA5F /* PBXTargetDependency */,
+			);
+			name = "KAIST One Click Service NewTests";
+			packageProductDependencies = (
+			);
+			productName = "KAIST One Click Service NewTests";
+			productReference = F81007BF2D320F8300BCFA5F /* KAIST One Click Service NewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F81007C82D320F8300BCFA5F /* KAIST One Click Service NewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81007EA2D320F8300BCFA5F /* Build configuration list for PBXNativeTarget "KAIST One Click Service NewUITests" */;
+			buildPhases = (
+				F81007C52D320F8300BCFA5F /* Sources */,
+				F81007C62D320F8300BCFA5F /* Frameworks */,
+				F81007C72D320F8300BCFA5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F81007CB2D320F8300BCFA5F /* PBXTargetDependency */,
+			);
+			name = "KAIST One Click Service NewUITests";
+			packageProductDependencies = (
+			);
+			productName = "KAIST One Click Service NewUITests";
+			productReference = F81007C92D320F8300BCFA5F /* KAIST One Click Service NewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F81007D42D320F8300BCFA5F /* KAIST One Click Service New Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81007E02D320F8300BCFA5F /* Build configuration list for PBXNativeTarget "KAIST One Click Service New Extension" */;
+			buildPhases = (
+				F81007D12D320F8300BCFA5F /* Sources */,
+				F81007D22D320F8300BCFA5F /* Frameworks */,
+				F81007D32D320F8300BCFA5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KAIST One Click Service New Extension";
+			packageProductDependencies = (
+			);
+			productName = "KAIST One Click Service New Extension";
+			productReference = F81007D52D320F8300BCFA5F /* KAIST One Click Service New Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F810079A2D320F8200BCFA5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					F81007A12D320F8200BCFA5F = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					F81007BE2D320F8300BCFA5F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F81007A12D320F8200BCFA5F;
+					};
+					F81007C82D320F8300BCFA5F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F81007A12D320F8200BCFA5F;
+					};
+					F81007D42D320F8300BCFA5F = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = F810079D2D320F8200BCFA5F /* Build configuration list for PBXProject "KAIST One Click Service New" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F81007992D320F8200BCFA5F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F81007A32D320F8200BCFA5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F81007A12D320F8200BCFA5F /* KAIST One Click Service New */,
+				F81007BE2D320F8300BCFA5F /* KAIST One Click Service NewTests */,
+				F81007C82D320F8300BCFA5F /* KAIST One Click Service NewUITests */,
+				F81007D42D320F8300BCFA5F /* KAIST One Click Service New Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F81007A02D320F8200BCFA5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81007AC2D320F8200BCFA5F /* Icon.png in Resources */,
+				F81007B52D320F8200BCFA5F /* Main.storyboard in Resources */,
+				F81007B02D320F8200BCFA5F /* Script.js in Resources */,
+				F81007AA2D320F8200BCFA5F /* Main.html in Resources */,
+				F81007B72D320F8300BCFA5F /* Assets.xcassets in Resources */,
+				F81007AE2D320F8200BCFA5F /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81007BD2D320F8300BCFA5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81007C72D320F8300BCFA5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81007D32D320F8300BCFA5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81007F72D320F8300BCFA5F /* images in Resources */,
+				F81007FA2D320F8300BCFA5F /* button.css in Resources */,
+				F81007F82D320F8300BCFA5F /* popup.html in Resources */,
+				F81007F92D320F8300BCFA5F /* manifest.json in Resources */,
+				F81007F62D320F8300BCFA5F /* background.js in Resources */,
+				F81007FB2D320F8300BCFA5F /* content.js in Resources */,
+				F81007F52D320F8300BCFA5F /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F810079E2D320F8200BCFA5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81007B22D320F8200BCFA5F /* ViewController.swift in Sources */,
+				F81007A62D320F8200BCFA5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81007BB2D320F8300BCFA5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81007C42D320F8300BCFA5F /* KAIST_One_Click_Service_NewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81007C52D320F8300BCFA5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81007D02D320F8300BCFA5F /* KAIST_One_Click_Service_NewUITestsLaunchTests.swift in Sources */,
+				F81007CE2D320F8300BCFA5F /* KAIST_One_Click_Service_NewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81007D12D320F8300BCFA5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81007DB2D320F8300BCFA5F /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F81007C12D320F8300BCFA5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81007A12D320F8200BCFA5F /* KAIST One Click Service New */;
+			targetProxy = F81007C02D320F8300BCFA5F /* PBXContainerItemProxy */;
+		};
+		F81007CB2D320F8300BCFA5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81007A12D320F8200BCFA5F /* KAIST One Click Service New */;
+			targetProxy = F81007CA2D320F8300BCFA5F /* PBXContainerItemProxy */;
+		};
+		F81007D82D320F8300BCFA5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81007D42D320F8300BCFA5F /* KAIST One Click Service New Extension */;
+			targetProxy = F81007D72D320F8300BCFA5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F81007A82D320F8200BCFA5F /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F81007A92D320F8200BCFA5F /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		F81007B32D320F8200BCFA5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F81007B42D320F8200BCFA5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F81007DE2D320F8300BCFA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F81007DF2D320F8300BCFA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F81007E12D320F8300BCFA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "KAIST One Click Service New Extension/KAIST_One_Click_Service_New_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = F46QD2GBLQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KAIST One Click Service New Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "KAIST One Click Service New Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaehyeon.KAIST-One-Click-Service-New.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F81007E22D320F8300BCFA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "KAIST One Click Service New Extension/KAIST_One_Click_Service_New_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = F46QD2GBLQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KAIST One Click Service New Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "KAIST One Click Service New Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaehyeon.KAIST-One-Click-Service-New.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F81007E52D320F8300BCFA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "KAIST One Click Service New/KAIST One Click Service New.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = F46QD2GBLQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KAIST One Click Service New/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "KAIST One Click Service New";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaehyeon.KAIST-One-Click-Service-New";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F81007E62D320F8300BCFA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "KAIST One Click Service New/KAIST One Click Service New.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = F46QD2GBLQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KAIST One Click Service New/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "KAIST One Click Service New";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaehyeon.KAIST-One-Click-Service-New";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F81007E82D320F8300BCFA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F46QD2GBLQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaehyeon.KAIST-One-Click-Service-NewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAIST One Click Service New.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KAIST One Click Service New";
+			};
+			name = Debug;
+		};
+		F81007E92D320F8300BCFA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F46QD2GBLQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaehyeon.KAIST-One-Click-Service-NewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAIST One Click Service New.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KAIST One Click Service New";
+			};
+			name = Release;
+		};
+		F81007EB2D320F8300BCFA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F46QD2GBLQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaehyeon.KAIST-One-Click-Service-NewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "KAIST One Click Service New";
+			};
+			name = Debug;
+		};
+		F81007EC2D320F8300BCFA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F46QD2GBLQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaehyeon.KAIST-One-Click-Service-NewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "KAIST One Click Service New";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F810079D2D320F8200BCFA5F /* Build configuration list for PBXProject "KAIST One Click Service New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81007DE2D320F8300BCFA5F /* Debug */,
+				F81007DF2D320F8300BCFA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81007E02D320F8300BCFA5F /* Build configuration list for PBXNativeTarget "KAIST One Click Service New Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81007E12D320F8300BCFA5F /* Debug */,
+				F81007E22D320F8300BCFA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81007E42D320F8300BCFA5F /* Build configuration list for PBXNativeTarget "KAIST One Click Service New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81007E52D320F8300BCFA5F /* Debug */,
+				F81007E62D320F8300BCFA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81007E72D320F8300BCFA5F /* Build configuration list for PBXNativeTarget "KAIST One Click Service NewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81007E82D320F8300BCFA5F /* Debug */,
+				F81007E92D320F8300BCFA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81007EA2D320F8300BCFA5F /* Build configuration list for PBXNativeTarget "KAIST One Click Service NewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81007EB2D320F8300BCFA5F /* Debug */,
+				F81007EC2D320F8300BCFA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F810079A2D320F8200BCFA5F /* Project object */;
+}
