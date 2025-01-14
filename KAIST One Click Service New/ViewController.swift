@@ -9,7 +9,7 @@ import Cocoa
 import SafariServices
 import WebKit
 
-let extensionBundleIdentifier = "com.yourCompany.KAIST-One-Click-Service-New.Extension"
+let extensionBundleIdentifier = "com.jaehyeon.KAIST-One-Click-Service-New.Extension"
 
 class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHandler {
 
